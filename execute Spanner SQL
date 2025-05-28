@@ -22,5 +22,3 @@ jobs:
         gcloud spanner databases execute-sql test-db \
           --instance=test-instance \
           --sql="$(cat queries.sql)"
-
-Add workflow to execute Spanner SQL
